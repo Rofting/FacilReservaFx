@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.svalero.facilreservafx.RestaurantController">
+
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="ID" fx:id="idColumn"/>
+            <TableColumn text="Name" fx:id="nameColumn"/>
+            <TableColumn text="Address" fx:id="addressColumn"/>
+            <TableColumn text="Capacity" fx:id="capacityColumn"/>
+            <TableColumn text="Capacity" fx:id="available"/>
+        </columns>
+    </TableView>
+
+</VBox>
