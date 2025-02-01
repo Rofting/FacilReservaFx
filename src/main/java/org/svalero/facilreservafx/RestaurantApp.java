@@ -44,7 +44,7 @@ public class RestaurantApp extends Application {
         primaryStage.setTitle("Restaurant List");
         primaryStage.show();
 
-        fetchRestaurants(); // Llamada asíncrona a la API
+        fetchRestaurants();
     }
 
     private void fetchRestaurants() {

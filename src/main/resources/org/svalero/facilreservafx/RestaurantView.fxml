@@ -13,7 +13,7 @@
             <TableColumn text="Name" fx:id="nameColumn"/>
             <TableColumn text="Address" fx:id="addressColumn"/>
             <TableColumn text="Capacity" fx:id="capacityColumn"/>
-            <TableColumn text="Capacity" fx:id="available"/>
+            <TableColumn text="Available" fx:id="available"/>
         </columns>
     </TableView>
 
